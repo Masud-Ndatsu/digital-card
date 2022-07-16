@@ -3,15 +3,16 @@
   background-color: #23252c;
   display: grid;
   place-items: center;
+  padding: 5px;
 }
 
 .card {
   background-color: #1a1b21;
   color: #dcdcdc;
   min-height: 70vh;
-  max-width: 320px;
+  max-width: 400px;
   width: 90vw;
-  margin: 50px auto;
+  margin: 20px auto;
   border-radius: 7px;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
 }
