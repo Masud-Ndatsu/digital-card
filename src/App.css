@@ -1,0 +1,103 @@
+#root {
+  min-height: 100vh;
+  background-color: #23252c;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  background-color: #1a1b21;
+  color: #dcdcdc;
+  min-height: 70vh;
+  max-width: 320px;
+  width: 90vw;
+  margin: 50px auto;
+  border-radius: 7px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card .my-info {
+  text-align: center;
+}
+
+.card .my-info .img-wrapper {
+  margin-bottom: 20px;
+}
+.card .my-info .img-wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 320px;
+  border-radius: 7px 7px 0 0;
+}
+
+.text-info {
+  align-self: end;
+}
+
+.text-info p {
+  color: #f3bf99;
+  margin: 5px auto;
+}
+.text-info .mySite a {
+  color: #ffffff;
+}
+.text-info .btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3rem;
+}
+.text-info .btns button {
+  font-weight: bold;
+}
+.bi {
+  margin: 5px;
+}
+
+.btns {
+  margin-block: 20px;
+}
+
+.btns a button {
+  padding: 0.75em 2em;
+}
+
+.btns .linkedin {
+  background-color: #5093e2;
+  color: #ffffff;
+}
+
+.main-content {
+  font-size: 0.825rem;
+  padding: 2.1em 2em;
+  line-height: 1.3;
+}
+
+.about {
+  margin-bottom: 30px;
+}
+.about h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.interest {
+  margin-bottom: 20px;
+}
+
+.interest h3 {
+  margin-bottom: 10px;
+}
+.footer {
+  background-color: #161619;
+  padding: 1.12em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border-radius: 0 0 7px 7px;
+}
+
+.footer a {
+  color: #ffffff;
+}
